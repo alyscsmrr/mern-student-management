@@ -1,0 +1,12 @@
+.app { max-width: 800px; margin: 0 auto; padding: 32px 20px; text-align: left; }
+.app h1 { font-size: 2rem; }
+.app fieldset { display: grid; gap: 10px; border: 1px solid #888; border-radius: 12px; padding: 20px; }
+.app input { padding: 12px; font: inherit; border: 1px solid #888; border-radius: 6px; min-width: 0; }
+.app ul { list-style: none; padding: 0; }
+.app li { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; border: 1px solid #888; border-radius: 12px; padding: 18px; margin-bottom: 12px; }
+.student-details { display: grid; gap: 6px; overflow-wrap: anywhere; }
+.actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
+.app button { border: 1px solid #888; }
+.app button:disabled { cursor: wait; opacity: 0.6; }
+.app .danger, .error { color: #d93025; }
+.success { color: #16803c; }
